@@ -1,0 +1,25 @@
+.wrapper{
+	width: 600px;
+	margin: auto;
+	text-align: center;
+}
+
+.board{
+	border: 1px solid #000;
+	float: left;
+	background-color: #000;
+}
+
+.cube{
+	/* display: inline-block; */
+	float: left;
+	border: 1px solid #000;
+	width: 192px;
+	height: 192px;
+	margin: 2px;
+	font-size: 170px;
+	line-height: 192px;
+	background-color: #FFF;
+	text-shadow: 15px 15px 20px #222;
+	box-shadow: 10px 5px 15px #222;
+}
