@@ -2,6 +2,8 @@
 	width: 600px;
 	margin: auto;
 	text-align: center;
+	font-variant: small-caps;
+	cursor: crosshair;
 }
 
 .board{
@@ -22,4 +24,15 @@
 	background-color: #FFF;
 	text-shadow: 15px 15px 20px #222;
 	box-shadow: 10px 5px 15px #222;
+}
+
+.resetButton{
+	float:left;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+	box-shadow: 5px 5px 4px #000;
+	background-color: #000;
+	border: 0px;
 }
